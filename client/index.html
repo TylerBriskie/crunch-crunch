@@ -5,6 +5,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Crunch Crunch</title>
   </head>
@@ -18,7 +19,7 @@
       <div class="container">
         <div class="row">
           <div class="col m6">
-            <form class="userInput" action="index.html" method="post">
+            <form id="userInput" action="index.html" method="post">
               <div class="input-field">
                 <input placeholder="Joey JoJo Junior" id="first_name" type="text" class="validate">
                 <label for="first_name">Name</label>
@@ -31,7 +32,7 @@
                 <input placeholder="1,000,000" id="crunchesDone" type="text" class="validate">
                 <label for="first_name">How Many Crunches Have You Done?</label>
               </div>
-              <a class="waves-effect waves-light btn orange">Crunch It!</a>
+              <a id="submitButton" class="waves-effect waves-light btn orange">Crunch It!</a>
             </form>
           </div>
           <div class="col m6">
