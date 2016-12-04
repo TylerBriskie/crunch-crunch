@@ -1,0 +1,16 @@
+body {
+  background-color:#378BB6;
+}
+
+h1{
+  font-size:2em;
+  text-align:center;
+}
+.userInput a{
+  margin:auto;
+}
+.results{
+  background-color:#ccc;
+  height:80vh;
+  box-shadow:1px 1px 5px #333;
+}
